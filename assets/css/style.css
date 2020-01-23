@@ -1,0 +1,172 @@
+
+
+body {
+	background-color:#ECEBEB;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+h1{
+  color:#c9485b;
+  font-family: Verdana, Geneva, sans-serif; font-size: 30px;font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px
+}
+
+h2{
+  color:#529BD0;
+  font-family: Verdana, Geneva, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 15.4px;
+}
+
+h3{
+  color:#529BD0;
+  font-family: Verdana, Geneva, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  margin-bottom: 1rem;
+}
+
+h4{
+  color:#ffffff;
+  font-family: Verdana, Geneva, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+
+
+
+p {
+	color:#595959;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+	margin-bottom: 1rem;
+}
+
+
+/*-Header-*/
+.header {
+	background-color: #f5c3bc;
+	border-bottom: 10px solid #e89da2;
+	padding: 30px 0px;
+}
+
+.navbar-brand{
+	color:#c9485b
+}
+
+.container-fluid.img-fluid{
+	width:100%;
+}
+
+
+.container { width: 100%;
+padding-right: 15px; padding-left: 15px;
+margin-right: auto; margin-left: auto; }
+
+@media (min-width: 576px){ .container { max-width: 540px; } }
+@media (min-width: 768px){ .container { max-width: 720px; } }
+@media (min-width: 992px){ .container { max-width: 960px; } }
+@media (min-width: 1200px){ .container { max-width: 1140px; } }
+@media (min-width: 1300px){ .container { max-width: 1240px; } }
+ 
+/*-Section Blocks-*/
+.section-block {
+	background-color: #F7F7F7;
+	border-radius:4px;
+	padding: 50px;
+	margin-bottom:30px;
+}
+.section-block.summary {
+    background-color: #96d1c7;
+}
+.section-block.summary h1 {
+    color: #fff;
+	display:block;
+	text-align:left;
+}
+.section-block.transparent {
+	background-color:transparent
+}
+
+.section-block h1 {
+	margin-top:0;
+}
+.section-title {
+	color: #529BD0;
+	border-radius: 4px;
+	display: table;
+	padding: 10px 0px;
+	font-size: 25px;
+	font-weight:700;
+}
+
+/*-Main Content-*/
+.main-content {
+	padding:80px 0px 0px 0px;
+}
+
+.bg-4 {
+  background-color: #e89da2;
+  height: 80px;
+  color: #ffffff;
+}
+
+
+.bg-2 { 
+    background-color: #f2f1f3;
+    color: #ffffff;
+    height: 240px;
+  }
+
+  .list1{
+  	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+  }
+
+/*-Profile Summary-*/
+.profile-contents {
+	margin: 0 auto;
+    text-align: center;
+}
+.profile-contents h2 {
+	color:#FFF;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight:300;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.profile-image {
+	border-radius:50%;
+	max-height: 180px;
+	margin-bottom:10px;
+}
+.profile-contents ul li {
+	padding:0;
+	margin:5px;
+}
+.profile-contents ul li a {
+	background-color: #85AD90;
+	color: #FFF;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.profile-contents ul li a i.fa {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.profile-contents ul li a:hover {
+	background-color:#779A81;
+}
+
+.c1 {
+  padding: 80px 120px;
+}
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
